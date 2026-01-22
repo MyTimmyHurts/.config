@@ -1,0 +1,148 @@
+@import 'colors/gruvbox.css';
+
+* {
+    border: none;
+    border-radius: 0px;
+
+    font-family: "Adwaita Sans", "JetBrainsMono Nerd Font Propo", "sans-serif";
+    font-size: 14px;
+    font-weight: bold;
+
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+tooltip {
+    background-color: @bg_s;
+    border: 1px solid @fg4;
+}
+
+tooltip label {
+    color: @fg0;
+    padding: 6px 10px 6px 10px;
+}
+
+#workspaces button {
+    padding: 0px 6px;
+    margin: 0px 3px;
+    border-radius: 45px;
+    color: transparent;
+    background-color: @bg1;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    background-color: @blue;
+    color: @bg0;
+    min-width: 45px;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+#workspaces button:hover {
+    background-color: @purple;
+    color: @bg0;
+    border-radius: 16px;
+    min-width: 45px;
+    background-size: 400% 400%;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+    color: @bg0;
+    border-radius: 16px;
+    min-width: 45px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces {
+    background-color: @bg0;
+    padding: 5px 3px;
+    border-radius: 18px;
+    border: 1px solid @fg4;
+    color: @fg0;
+}
+
+#disk,
+#memory,
+#bluetooth,
+#cpu,
+#battery,
+#wireplumber,
+#network,
+#clock,
+#custom-nixoslogo,
+#custom-notification {
+    background-color: @bg0;
+    padding: 0 15px 0 15px;
+    margin: 0 0 0 12px;
+    border-radius: 45px;
+    border: 1px solid @fg4;
+}
+
+#custom-nixoslogo {
+    color: @aqua; 
+    font-size: 24px;
+    border-radius: 45px;
+    padding: 0 8px 0 8px;
+}
+
+#clock {
+    color: @blue;
+    margin: 0 12px 0 0;
+}
+
+#custom-notification {
+    color: @fg0;
+    margin: 0 12px 0 12px;
+}
+
+#wireplumber {
+    color: @yellow;
+}
+
+#wireplumber.source {
+    color: @orange;
+}
+
+#network {
+    color: @purple;
+}
+
+#battery {
+    color: @green;
+}
+
+#battery.charging {
+    color: @green;
+}
+
+#battery.warning {
+    color: @orange_dim;
+}
+
+#battery.critical {
+    color: @red;
+}
+
+#cpu {
+    color: @green_dim;
+}
+
+#bluetooth {
+    color: @blue_dim;
+}
+
+#memory {
+    color: @orange_dim;
+}
+
+#disk {
+    color: @purple_dim;
+}

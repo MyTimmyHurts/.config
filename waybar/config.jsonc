@@ -1,0 +1,168 @@
+{
+    "style": "~/.config/waybar/style.css",
+    "position": "top",
+    "margin-top": 15,
+    "modules-left": [
+        "custom/nixoslogo",
+        "cpu",
+        "memory",
+        "disk",
+        "bluetooth"
+    ],
+    "modules-center": [
+        "clock",
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "wireplumber",
+        "wireplumber#source",
+        "network",
+        "battery",
+        "custom/notification"
+    ],
+    // NIXOS LOGO //
+    "custom/nixoslogo": {
+        "format": "󱄅",
+        "max-length": 15,
+        "tooltip": false,
+        "on-click": "kitty zsh -c 'fastfetch; exec zsh'"
+    },
+    // CLOCK //
+    "clock": {
+        "interval": 60,
+        "format": "󰥔 {:%H:%M | %d %b %y}",
+        "format-alt": "󰥔 {:%a %d %B %y}",
+        "max-length": 25,
+        "tooltip": true,
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "on-scroll": 1,
+            "format": {
+                "months": "<span color='#fbf1c7'><b>{}</b></span>",
+                "days": "<span color='#d3869b'><b>{}</b></span>",
+                "weeks": "<span color='#83a598'><b>W{}</b></span>",
+                "weekdays": "<span color='#fe8019'><b>{}</b></span>",
+                "today": "<span color='#cc2412'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+    // HYPRLAND WORKSPACES //
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "persistent-workspaces": {
+            "*": 5, // 5 workspaces by default on every monitor
+            "HDMI-A-1": 3 // but only three on HDMI-A-1
+        }
+    },
+    // NETWORK //
+    "network": {
+        "interval": 60,
+        "interface": "wlp99s0",
+        "format": "{ifname}",
+        "format-wifi": "{bandwidthUpBytes} ↑ {bandwidthDownBytes} ↓ ",
+        "format-ethernet": "{bandwidthUpBytes} ↑ {bandwidthDownBytes} ↓ 󱘖",
+        "format-disconnected": "No Connection ", //An empty format will hide the module.
+        "tooltip-format": "{ifname} via {gwaddr} 󱘖",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} 󱘖",
+        "tooltip-format-disconnected": "Disconnected ",
+        "on-click": "nm-connection-editor",
+        "max-length": 50
+    },
+    // WIREPLUMBER AUDIO OUTPUT //
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "easyeffects",
+        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ]
+    },
+    // WIREPLUMBER AUDIO INPUT //
+    "wireplumber#source": {
+        "node-type": "Audio/Source",
+        "format": "{volume}% 󰍬",
+        "format-muted": "󰍭",
+        "on-click": "pwvucontrol",
+        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
+        "scroll-step": 5
+    },
+    // BATTERY //
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging":"󱐋 {capacity}% {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "max-length": 25
+    },
+    // SWAY NOTIFICATIONS
+    "custom/notification": {
+        "tooltip": true,
+        "format": "<span size='16pt'>{icon}</span>",
+        "format-icons": {
+            "notification": "󱅫",
+            "none": "󰂜",
+            "dnd-notification": "󰂠",
+            "dnd-none": "󰪓",
+            "inhibited-notification": "󰂛",
+            "inhibited-none": "󰪑",
+            "dnd-inhibited-notification": "󰂛",
+            "dnd-inhibited-none": "󰪑"
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+    // CPU //
+    "cpu": {
+        "interval": 10,
+        "format": " {}%",
+        "max-length": 10,
+        "on-click": "rog-control-center"
+        //"on-click": "kitty zsh -c 'powerprofilesctl; exec zsh'"
+    },
+    // BLUETOOTH //
+    "bluetooth": {
+        "max-length": 30,
+        "format": " Connect...",
+        "format-disabled": "󰂲 Disabled",
+        "format-connected": " {device_alias}",
+        "format-connected-battery": " {device_alias} {device_battery_percentage}%",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "on-click": "blueman-manager",
+        "on-click-right": "rfkill toggle bluetooth"
+    },
+    // MEMORY //
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10,
+        "on-click": "missioncenter"
+    },
+    // DISK //
+    "disk": {
+        "interval": 30,
+        "format": "󰋊 {percentage_used}%",
+        "path": "/",
+        "on-click": "nautilus"
+    }
+}

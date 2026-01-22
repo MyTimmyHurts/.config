@@ -1,0 +1,32 @@
+{
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontFamily": "'AdwaitaMono Nerd Font Propo', 'Droid Sans Mono', 'monospace', monospace",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontLigatures": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "native",
+    "window.customTitleBarVisibility": "never",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.padding.top": 20,
+    "editor.padding.bottom": 20,
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "workbench.colorTheme": "Monochromator Dark Sulfur",
+    "workbench.productIconTheme": "material-product-icons",
+    "git.openRepositoryInParentFolders": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.banner": "never"
+}
