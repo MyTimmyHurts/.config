@@ -28,5 +28,4 @@
     "workbench.productIconTheme": "material-product-icons",
     "git.openRepositoryInParentFolders": "never",
     "security.workspace.trust.startupPrompt": "never",
-    "security.workspace.trust.banner": "never"
 }

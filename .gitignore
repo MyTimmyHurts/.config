@@ -1,9 +1,6 @@
 *
 
 !.gitignore
-!vconsole.conf
-!installs.txt
-!fstab
 
 !hypr/
 !hypr/**
