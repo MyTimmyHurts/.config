@@ -173,11 +173,14 @@ window-rule {
 }
 
 binds {
-    Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
-    Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+b hotkey-overlay-title="Open Web Browser: Brave" { spawn "brave"; }
-    Mod+E hotkey-overlay-title="Open File Browser: Nautilus" { spawn "nautilus";}
+    Mod+E hotkey-overlay-title="Open File Browser: Nautilus" { spawn "nautilus"; }
+    Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn-sh "pkill fuzzel || exec fuzzel"; }
+    Mod+Alt+B hotkey-overlay-title="Open Web Browser: Brave" { spawn "brave"; }
+    Mod+Alt+S hotkey-overlay-title="Opens Steam" { spawn "steam"; }
+    Mod+Alt+D hotkey-overlay-title="Opens Discord" { spawn "discord"; }
+    Mod+Alt+M hotkey-overlay-title="Opens Spotify" { spawn "spotify"; }
+
     Mod+Shift+Ctrl+R hotkey-overlay-title="Reboot System" { spawn "reboot"; }
     Mod+Shift+Ctrl+P hotkey-overlay-title="Poweroff System" { spawn "poweroff"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
@@ -311,4 +314,6 @@ binds {
     Ctrl+Alt+Delete { quit; }
 
     Mod+Shift+P { power-off-monitors; }
+    
+    Mod+Shift+Slash { show-hotkey-overlay; }
 }
