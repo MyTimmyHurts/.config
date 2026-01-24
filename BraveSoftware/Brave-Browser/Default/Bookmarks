@@ -1,0 +1,285 @@
+{
+   "checksum": "7280b1ae5e9d9aef6429669fa685c211",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13413662710041428",
+            "date_last_used": "13413747176330110",
+            "guid": "2e764fe7-474c-4027-871c-5d4075257043",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13413662740493949",
+            "date_last_used": "13413739983244289",
+            "guid": "33c6c4b8-228a-4e99-9677-319808b5da9a",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AnimeKai",
+            "type": "url",
+            "url": "https://animekai.to/home"
+         }, {
+            "date_added": "13413662731126888",
+            "date_last_used": "13413680697645769",
+            "guid": "9c06ab44-0446-4f33-a0bf-e99487c7a960",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Twitter",
+            "type": "url",
+            "url": "https://x.com/"
+         }, {
+            "date_added": "13413662734747999",
+            "date_last_used": "0",
+            "guid": "953b1bb8-21c5-426e-9f66-94375920544e",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MyFlixer",
+            "type": "url",
+            "url": "https://myflixer.gs/home"
+         }, {
+            "date_added": "13413662724595786",
+            "date_last_used": "0",
+            "guid": "0a0759d0-ecc3-482f-9863-c6cb5ec5bb5f",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Amazon",
+            "type": "url",
+            "url": "https://www.amazon.co.uk/"
+         }, {
+            "date_added": "13413662716739783",
+            "date_last_used": "13413664167085855",
+            "guid": "25360cd0-6e69-4d98-b20c-68b843092082",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Twitch",
+            "type": "url",
+            "url": "https://www.twitch.tv/"
+         }, {
+            "date_added": "13413662574910983",
+            "date_last_used": "13413734087033494",
+            "guid": "250e6e4e-91e6-4e59-aacf-b323aed2de66",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Outlook",
+            "type": "url",
+            "url": "https://outlook.live.com/mail/0/"
+         }, {
+            "date_added": "13413662697619104",
+            "date_last_used": "13413663025137230",
+            "guid": "0fc7083d-a739-4547-9b90-f26fd70aaf96",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13413662749510167",
+            "date_last_used": "0",
+            "guid": "8b300193-e8c7-4a93-b46e-475e3b1d6ffa",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Exercism",
+            "type": "url",
+            "url": "https://exercism.org/tracks"
+         }, {
+            "date_added": "13413662754501432",
+            "date_last_used": "0",
+            "guid": "d087bfd7-4f8d-4d12-ac2c-c54a5cedaacf",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Udemy",
+            "type": "url",
+            "url": "https://udemy.com/"
+         }, {
+            "date_added": "13413662745199210",
+            "date_last_used": "0",
+            "guid": "dfa50f77-4c6e-4085-947f-826f958a885c",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LeetCode",
+            "type": "url",
+            "url": "https://leetcode.com/"
+         }, {
+            "date_added": "13411154557102651",
+            "date_last_used": "13413743083056471",
+            "guid": "4a8e62ad-502e-42ee-a851-85ae97d727b9",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Speedtest",
+            "type": "url",
+            "url": "https://www.speedtest.net/"
+         }, {
+            "date_added": "13413662758057689",
+            "date_last_used": "0",
+            "guid": "0c1a9800-2645-4301-87c9-b767cca4b024",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Github",
+            "type": "url",
+            "url": "https://github.com/MyTimmyHurts?tab=repositories"
+         }, {
+            "date_added": "13413662763376591",
+            "date_last_used": "0",
+            "guid": "cab3a3c7-7e6c-46d3-8d2a-9939ff590532",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ProtonDB",
+            "type": "url",
+            "url": "https://www.protondb.com/explore"
+         }, {
+            "date_added": "13411154535072432",
+            "date_last_used": "0",
+            "guid": "f59bba03-13c7-4f2a-9e3a-a961f62cc89f",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "SteamDB",
+            "type": "url",
+            "url": "https://steamdb.info/"
+         }, {
+            "date_added": "13413662767060592",
+            "date_last_used": "13413750039154763",
+            "guid": "0b5615ce-42fc-4807-9911-a18bacaa8424",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13411260249886493",
+            "date_last_used": "13413682083886512",
+            "guid": "94edf889-a8f1-466f-a509-ffef749be4af",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TwitterVDL",
+            "type": "url",
+            "url": "https://twittervideodownloader.com/en/"
+         }, {
+            "date_added": "13411260276700165",
+            "date_last_used": "13413682086349062",
+            "guid": "8cf5cbc1-bd64-4e88-bc73-529491eeacf7",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "EzGif",
+            "type": "url",
+            "url": "https://ezgif.com/video-to-gif"
+         }, {
+            "date_added": "13411324715143549",
+            "date_last_used": "13412791474213531",
+            "guid": "60112df7-087b-4ac8-ab38-c23d2ea47a47",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pacman cheatsheet",
+            "type": "url",
+            "url": "https://devhints.io/pacman"
+         } ],
+         "date_added": "13411152388432567",
+         "date_last_used": "0",
+         "date_modified": "13413741151908018",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13411350221198300",
+               "date_last_used": "0",
+               "guid": "aaccbb79-58e5-4c74-816c-7722649ee3e2",
+               "id": "14",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "codecrafters-io/build-your-own-x: Master programming by recreating your favorite technologies from scratch.",
+               "type": "url",
+               "url": "https://github.com/codecrafters-io/build-your-own-x"
+            }, {
+               "date_added": "13411350424249648",
+               "date_last_used": "0",
+               "guid": "f62a0a46-0b87-49d1-ba9e-91edf7a1c198",
+               "id": "15",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ossu/computer-science: 🎓 Path to a free self-taught education in Computer Science!",
+               "type": "url",
+               "url": "https://github.com/ossu/computer-science"
+            }, {
+               "children": [  ],
+               "date_added": "13413741264385436",
+               "date_last_used": "0",
+               "date_modified": "13413741264385436",
+               "guid": "44f0a437-6889-47d2-97b9-6163df734ce9",
+               "id": "34",
+               "name": "New folder",
+               "type": "folder"
+            } ],
+            "date_added": "13413741172441331",
+            "date_last_used": "0",
+            "date_modified": "13413741264385508",
+            "guid": "8d27137f-92d2-476b-93c4-bf7ed310359b",
+            "id": "33",
+            "name": "Github Repos",
+            "type": "folder"
+         } ],
+         "date_added": "13411152388432567",
+         "date_last_used": "0",
+         "date_modified": "13413741326720534",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13411152388432567",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

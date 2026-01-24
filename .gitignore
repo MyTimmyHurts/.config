@@ -2,6 +2,11 @@
 
 !.gitignore
 
+!BraveSoftware/
+!BraveSoftware/Brave-Browser/
+!BraveSoftware/Brave-Browser/Default/
+!BraveSoftware/Brave-Browser/Default/Bookmarks
+
 !hypr/
 !hypr/**
 
